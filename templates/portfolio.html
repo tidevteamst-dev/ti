@@ -1,0 +1,15 @@
+{% extends "parts.html" %}
+{% block content %}
+    <main>
+        <section class="page-header"><div class="container"><h1>Our Work</h1></div></section>
+        <section id="portfolio" class="portfolio-section" style="background-color: transparent; padding-top: 40px;">
+            <div class="container">
+                <div class="portfolio-grid">
+                    {% for x in projects %}
+                    <a href="{% url 'project' x.id %}" class="portfolio-item"><img src="{{x.thumbnail.url}}" alt="Project 1"><div class="portfolio-overlay"><h3>{{x.title}}</h3><p>{{x.category}}</p></div></a>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+    </main>
+{% endblock %}

@@ -1,0 +1,329 @@
+{% extends "parts.html" %}
+{% block content %}
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-background">
+                <div class="hero-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <i class="fas fa-rocket"></i>
+                        <span>Innovation at its finest</span>
+                    </div>
+                    <h1 class="hero-title">
+                        <span class="title-line">We Build</span>
+                        <span class="title-highlight">Experiences</span>
+                        <span class="title-line">That Matter</span>
+                    </h1>
+                    <p class="hero-description">
+                        Transform your ideas into powerful software solutions. We craft cutting-edge applications, 
+                        stunning websites, and intelligent systems that drive your business forward.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="cta-button-main">
+                            <span>Start Your Project</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#portfolio" class="cta-button-secondary">
+                            <i class="fas fa-play"></i>
+                            <span>Watch Our Work</span>
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">{{projects_count}}</span>
+                            <span class="stat-label">Projects Delivered</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">24/12</span>
+                            <span class="stat-label">Support Available</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-card card-1">
+                        <i class="fas fa-code"></i>
+                        <span>Clean Code</span>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>Mobile First</span>
+                    </div>
+                    <div class="floating-card card-3">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Secure</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">
+                        <i class="fas fa-star"></i>
+                        <span>Our Expertise</span>
+                    </div>
+                    <h2>Services That Drive Growth</h2>
+                    <p>We specialize in creating digital solutions that transform businesses and delight users.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Mobile App Development</h3>
+                        <p>Native and cross-platform mobile applications that engage users and drive business growth.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> iOS & Android Development</li>
+                            <li><i class="fas fa-check"></i> React Native & Flutter</li>
+                            <li><i class="fas fa-check"></i> App Store Optimization</li>
+                        </ul>
+                        <a href="#contact" class="service-link">
+                            Learn More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>Modern, responsive websites and web applications that convert visitors into customers.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Custom Web Applications</li>
+                            <li><i class="fas fa-check"></i> E-commerce Solutions</li>
+                            <li><i class="fas fa-check"></i> Progressive Web Apps</li>
+                        </ul>
+                        <a href="#contact" class="service-link">
+                            Learn More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3>Custom Software</h3>
+                        <p>Tailored software solutions that streamline operations and boost productivity.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Enterprise Software</li>
+                            <li><i class="fas fa-check"></i> CRM & ERP Systems</li>
+                            <li><i class="fas fa-check"></i> API Development</li>
+                        </ul>
+                        <a href="#contact" class="service-link">
+                            Learn More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <h3>Game Development</h3>
+                        <p>Immersive gaming experiences across multiple platforms with cutting-edge technology.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Unity & Godot Engine</li>
+                            <li><i class="fas fa-check"></i> 2D & 3D Games</li>
+                            <li><i class="fas fa-check"></i> VR/AR Experiences</li>
+                        </ul>
+                        <a href="#contact" class="service-link">
+                            Learn More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>AI & Automation</h3>
+                        <p>Intelligent solutions that automate processes and provide data-driven insights.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Process Automation</li>
+                            <li><i class="fas fa-check"></i> Data Analytics</li>
+                        </ul>
+                        <a href="#contact" class="service-link">
+                            Learn More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">
+                        <i class="fas fa-briefcase"></i>
+                        <span>Our Work</span>
+                    </div>
+                    <h2>Featured Projects</h2>
+                    <p>Discover how we've helped businesses achieve their digital transformation goals.</p>
+                </div>
+                <div class="portfolio-grid">
+				
+				{% for x in lasted_projects %}
+                    <a href="{% url 'project' x.id %}" class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="{{x.thumbnail.url}}" alt="{{x.title}}">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-content">
+                                    <span class="portfolio-category">{{x.category}}</span>
+                                    <h3>{{x.title}}</h3>
+                                    <p>{{x.description}}</p>
+                                    <div class="portfolio-tech">
+                                        <span>{{x.tech}}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+				{% endfor %}
+                    
+                </div>
+                <div class="portfolio-cta">
+                    <a href="{% url "portfolio" %}" class="cta-button-main">
+                        <span>View All Projects</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <div class="section-badge">
+                            <i class="fas fa-users"></i>
+                            <span>About Us</span>
+                        </div>
+                        <h2>We're a Team of Digital Innovators</h2>
+                        <p>At TI, we believe technology should solve real problems and create meaningful experiences. Our team of passionate developers, designers, and strategists work together to deliver solutions that not only meet your needs but exceed your expectations.</p>
+                        <div class="about-features">
+                            <div class="feature">
+                                <i class="fas fa-rocket"></i>
+                                <div>
+                                    <h4>Fast Delivery</h4>
+                                    <p>Quick turnaround times without compromising quality</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-shield-alt"></i>
+                                <div>
+                                    <h4>Secure & Reliable</h4>
+                                    <p>Enterprise-grade security for your peace of mind</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-headset"></i>
+                                <div>
+                                    <h4>24/12 Support</h4>
+                                    <p>Round-the-clock support for all your needs</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-visual">
+                        <div class="team-stats">
+                            <div class="stat-card">
+                                <span class="stat-number">{{projects_count}}</span>
+                                <span class="stat-label">Happy Clients</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="section-badge">
+                            <i class="fas fa-envelope"></i>
+                            <span>Get In Touch</span>
+                        </div>
+                        <h2>Ready to Start Your Project?</h2>
+                        <p>Let's discuss how we can help bring your vision to life. Our team is ready to create something amazing together.</p>
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h4>Email Us</h4>
+                                    <p>titeam.stido@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <h4>Whatsapp</h4>
+                                    <p>+966570820105</p>
+                                </div>
+                            </div>
+							<div class="contact-method">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <h4>Whatsapp</h4>
+                                    <p>+201152930884</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-container">
+                        <form class="contact-form" method="POST">
+                            {% csrf_token %}
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <i class="fas fa-user"></i>
+                                    <input type="text" name="name" placeholder="Your Name" required>
+                                </div>
+                                <div class="input-group">
+                                    <i class="fas fa-envelope"></i>
+                                    <input type="email" name="email" placeholder="Your Email" required>
+                                </div>
+                            </div>
+                            <div class="input-group">
+                                <i class="fas fa-envelope"></i>
+                                <input type="email" name="another_email" placeholder="Another Your Email" required>
+                            </div>
+                            <div class="input-group">
+                                <i class="fas fa-phone"></i>
+                                <input type="tel" name="phone" placeholder="Phone Number" required>
+                            </div>
+                            <div class="input-group">
+                                <i class="fas fa-phone"></i>
+                                <input type="tel" name="another_phone" placeholder="Another Phone Number">
+                            </div>
+                            <div class="input-group">
+                                <i class="fas fa-briefcase"></i>
+                                <select name="project_type" required>
+                                    <option value="">Select Service</option>
+                                    <option value="web">Web Development</option>
+                                    <option value="mobile">Mobile App</option>
+                                    <option value="software">Custom Software</option>
+                                    <option value="game">Game Development</option>
+                                    <option value="ai">AI & Automation</option>
+                                </select>
+                            </div>
+                            <div class="input-group">
+                                <i class="fas fa-comment-dots"></i>
+                                <textarea name="message" rows="5" placeholder="Tell us about your project..." required></textarea>
+                            </div>
+                            <button type="submit" class="cta-button-main">
+                                <span>Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+{% endblock %}
