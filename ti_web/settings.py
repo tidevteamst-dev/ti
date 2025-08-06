@@ -34,6 +34,8 @@ ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1'
 ]
+PORT = os.environ.get("PORT", 8000)
+
 
 # أضف هذه الإعدادات في ملف settings.py
 
