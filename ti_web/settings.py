@@ -31,6 +31,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     os.environ.get('RAILWAY_STATIC_URL', 'ti-team-website-production.up.railway.app'),
+    '.vercel.app',
     'localhost',
     '127.0.0.1'
 ]
